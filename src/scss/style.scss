@@ -1,12 +1,9 @@
 $icon-size: 55px;
 $dark-overlay: rgba(0, 0, 0, 0.8);
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  overflow-x: hidden;
 }
-
 /********NAVBAR STARTS HERE**********/
 .navbar {
   .nav-link {
@@ -100,4 +97,18 @@ footer#main-footer {
 
 #testimonial-section {
   height: 200px;
+}
+
+#faq {
+  .card {
+    border: #444;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .card-body,
+  .card-header {
+    background: #333;
+  }
 }

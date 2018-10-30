@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+body {
+  overflow-x: hidden; }
 
 /********NAVBAR STARTS HERE**********/
 .navbar .nav-link {
@@ -78,3 +76,13 @@ footer#main-footer {
 
 #testimonial-section {
   height: 200px; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body,
+#faq .card-header {
+  background: #333; }
