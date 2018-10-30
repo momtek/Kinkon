@@ -1,6 +1,12 @@
 $icon-size: 55px;
 $dark-overlay: rgba(0, 0, 0, 0.8);
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /********NAVBAR STARTS HERE**********/
 .navbar {
   .nav-link {
@@ -69,4 +75,10 @@ $dark-overlay: rgba(0, 0, 0, 0.8);
   a {
     color: #ffffff;
   }
+}
+
+/*******FOOTER STARTS HERE******/
+footer#main-footer {
+  background: #222;
+  color: #fff;
 }
